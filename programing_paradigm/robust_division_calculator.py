@@ -1,4 +1,4 @@
-def safe_divide(numerator,denominator):
+def safe_divide():
     try:
         numerator = float(input("enter the numerator: "))
         denominator = float(input("enter the denominator: "))
@@ -9,4 +9,4 @@ def safe_divide(numerator,denominator):
     except ValueError:
         print("Error:Please Enter Valid number")
         
-safe_divide("numerator","denominator")
+safe_divide()
